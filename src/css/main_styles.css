@@ -1,0 +1,46 @@
+body{
+    min-height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    font-family: 'Lato', sans-serif !important;
+    box-sizing: border-box;
+    background-color: rgb(250, 255, 195);
+}
+
+
+.main-container {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    width: 50vw;
+}
+
+.first-container {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input {
+    width: 50%;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+
+
+@media screen and (max-width: 1023px) {
+    .main-container {
+        margin-top: 10vh;
+        margin-bottom: 10vh;
+        width: 90%;
+    }
+}
